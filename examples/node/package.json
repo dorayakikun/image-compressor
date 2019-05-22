@@ -1,0 +1,10 @@
+{
+  "name": "node",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "dorayakikun <amakunai.dorayaki@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pngjs": "^3.4.0"
+  }
+}
