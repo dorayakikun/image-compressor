@@ -3,7 +3,7 @@ const optimize = require("../../pkg/image_compressor").optimize;
 
 const buf = fs.readFileSync("./img1.png");
 try {
-  optimize(Uint8Array.from(buf));
+  fs.writeFileSync("img1.optimized.png", optimize(buf));
 } catch (error) {
   console.log("failed optimize: ", error);
 }
